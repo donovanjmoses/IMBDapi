@@ -1,4 +1,4 @@
-This a webpage that pulls in data from the IMBD API.
+This a webpage that pulls in data from the IMDB API.
 
 It currently displays information about one movie object.
 
