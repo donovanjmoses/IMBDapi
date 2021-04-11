@@ -11,3 +11,15 @@
     margin-top: 20%;
     font-size: x-large;
 }
+
+#images {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
