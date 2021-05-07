@@ -1,3 +1,13 @@
+// hides title border style until JSON has been parsed and content appears on the screen
+$(document).ready(function() {
+   $('#title').hide();
+   $("#btn").click(function() {
+      $("#title").fadeIn(7000);
+      $("#images").fadeIn(7000);
+   });
+})
+
+// AJAX HTTP request to API to load JSON data into document
 function loadRequest() {
 
    const xhr = new XMLHttpRequest();
